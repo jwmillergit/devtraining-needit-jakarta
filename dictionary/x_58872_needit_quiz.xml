@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="quiz" max_length="40" name="x_58872_needit_quiz" type="collection">
+        <element label="Logo" max_length="40" name="logo" type="user_image"/>
+        <element label="Min passing score" max_length="20" name="min_passing_score" type="decimal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="title" max_length="40" name="title" type="string"/>
+    </element>
+</database>
